@@ -1,5 +1,13 @@
+import usb.core
+import usb.util
 import serial
 import time
+
+""" comandos do linus
+lsusb         - lista os devices usb conectados na maquina
+usb-devices   - lista os dados dos devices
+dmesg | grep tty - lista as portas tty serial
+"""
 
 
 #port = '/dev/ttyUSB0'
